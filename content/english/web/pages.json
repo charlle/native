@@ -1,0 +1,41 @@
+{
+	"home": {
+		"banner": "Award Winning Boutique Law Firm",
+		"sub": "A highly specialized team of <span> legal professionals</span> providing immigration, in-house counsel, litigation, and mediation services for their international clientele.",
+		"H1": "TOWERING DISTINCTION",
+		"M1": "Our Lawyers are regularly recognized amongst the top in their profession. They provide world class legal services, which has distinguished them as 'Super Lawyers' for over 10 years. With a global and multi-jurisdictional practice, TMCT represents you where needed: US Immigration, Federal, Tax, and Bankruptcy Courts.",
+		"H2": "BANK ON EXCELLENCE",
+		"M2": "With a practice spanning Immigration to Creditor Rights, our Attorneys are committed to excellence in their fields and better returns for our clients. We have pioneered rapid asset recovery for all types of financial assets, advocated for alternative dispute resolution (arbitration and/or mediation), and optimized the expansive legal immigration process.",
+		"H3": "A LIGHT OF INTEGRITY",
+		"M3": "TMCT Law Firm has the privilege of representing a diverse and global clientele ranging from multinational financial institutions to high net worth families and extraordinary indivduals due to retaining the highest ethical standards. Earning their trust is our highest honor and persistent focus."
+	},
+	"about": {
+		"banner": "An Ocean of Difference",
+		"H1": "A Boutique International Law Firm",
+		"M1": "TMCT offers distinctive legal services to all our clients. Our practice is Multi-Disciplined, Multi-Jurisdictional, and Globally Aware. We are available where you need us.",
+		"valH1": "Multi Disciplined",
+		"valM1": "When a potential dispute occurs, it is critical to have an experienced, multi-disciplinary legal team that can quickly identify the issues and stabilize the situation through legal action or alternative dispute resolution.",
+		"valH2": "Multi Jurisdictional",
+		"valM2": "We are where our clients need us to be. We regularly represent global parties in international matters, including litigation and alternative dispute resolution in multiple jurisdictions.",
+		"valH3": "Globally Aware",
+		"valM3": "TMCT is a boutique law firm with a global reach. We offer legal services to an extraordinary international clientele and actively monitor global issues on behalf of our clients.",	
+		"recH": "Recognized Leader",
+		"recM": "Our Lawyers have been awarded the 'Super Lawyer' designation for over a decade. They are amongst the top in their profession and provide world class immigration, family office, and dispute resolution services for our clients.",
+		"super": "Super Lawyers",
+		"officeH": "Premier Locations",
+		"officeM": "We retain offices in premier locations across the world to engage with our clients and stay at the heart of local issues affecting them on the ground. When legal issues arise we are positioned to be where you need us.",
+		"officeA": "VIEW OUR OFFICES",
+		"careersH": "Join A World Class Law Firm?",
+		"careersM": "TMCT is a world class law firm representing international clients from large multi-national financial institutions to high net worth families and extraordinary individuals. All of our team members are committed to excellence and aspire to be the best in their practice. You will have the opportunity to work with some of the best in Immigration, Family, and Dispute Resolution.",
+		"careersA": "VIEW POSITIONS"
+	},
+	"contact": {
+		"banner": "Contact Us"
+	},
+	"offices": {
+		"banner": "Premier Locations"
+	},
+	"team": {
+		"banner": "World Class <br/>Legal Professionals"
+	}
+}

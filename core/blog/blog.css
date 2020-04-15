@@ -1,0 +1,163 @@
+/* 
+	BLOG LAYOUT 
+
+*/
+
+
+/*  MENU  */
+.menu {
+  width: 20%;
+  float: left;
+  padding-left: 20px;
+}
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.menu ul:nth-child(2) {
+  margin-top: 30px;
+}
+.menu span {
+  margin: 12px 0px 4px;
+  display: block;
+  font: normal small-caps 18px sans-serif; 
+  color: #000;
+}
+.menu a {
+  font: lighter 16px sans-serif; 
+  color: #000;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #6699CC;
+}
+.menu li {
+  padding: 4px 0px;
+}
+
+
+/*  BLOG  */
+.blog {
+  min-height: 500px;
+  width: 80%;
+  padding-left: 50px;
+  float: left;
+}
+.full {
+  width: 100%;
+  min-height: auto;
+  padding: 0px 20px;
+}
+.blog h3 {
+  margin-top: 0px;
+  font: lighter 32px sans-serif; 
+  color: #333;
+}
+.blog h4 {
+  margin-bottom: 10px;
+  font: lighter 22px sans-serif; 
+  color: #99CCFF;
+}
+.blog h5 {
+  margin: 10px 0px 0px;
+  font: normal small-caps 16px sans-serif;
+  color: #999;
+}
+.blog h6 {
+  font: normal small-caps 14px sans-serif;
+  color: #333;
+}
+.blog p {
+  line-height: 200% !important;
+  font: lighter 16px sans-serif; 
+  color: #000;
+}
+.blog a {
+  font-weight: normal;
+  color: #6699CC;
+  text-decoration: none;
+}
+.blog a:hover {
+  color: #99CCFF;
+}
+
+.blog li {
+  padding: 8px 0px;
+  color: #333;
+  font: lighter 16px sans-serif;
+  list-style-type: none;
+}
+.blog li a {
+  color: #333;
+}
+
+.blog img {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 3px;
+  border: 1.5px solid #E6E8FA;
+}
+
+
+a.apply {
+  margin: 0px 0px 40px;
+  display: block;
+  font: bold 11px sans-serif; 
+  color: #99CCFF;
+}
+a.apply:hover{
+  color: #6699CC;
+}
+
+
+/*  VIEWS  */
+.views {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}
+.views a {
+  display: inline-block;
+  padding: 8px 0px 8px 20px;
+  font-variant: small-caps;
+}
+
+
+
+/*  LINKS  */
+.links {
+  width: 100%;
+  margin: 100px 0px 0px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+.links a {
+  padding: 12px 25px;
+  display: inline-block;
+  color: #6699CC;
+  font: lighter 16px sans-serif;
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #6699CC;
+}
+.links a:hover {
+  color: #FFF;
+  background-color: #6699CC;
+}
+.link_right { float: right; }
+
+a.highlight { color: #6699CC; }
+a.hide { display: none; }
+
+/* LESS THAN 1,000 */
+@media screen and (max-width: 1000px) {
+  .menu {display: none}
+  .blog {width: 100%; padding: 0px;}
+}
+
+/* LESS THAN 750 */
+@media screen and (max-width: 750px) {
+  /*.blog {text-align: center;}*/
+}

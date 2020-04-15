@@ -1,0 +1,88 @@
+/* 
+	BANNER 
+
+*/
+
+.banner {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner h1 {
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  background: #000;
+  opacity: 0.7;
+}
+
+
+.banner_sub {
+  min-height: 500px;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.banner_sub h1 {
+  width: 50%;
+  margin-top: 0px;
+  font-size: 44px;
+}
+.banner_sub h2 {
+  width: 50%;
+  color: #555;
+  line-height: 150%;
+  text-shadow: 3px 3px 3px #FFF;
+}
+.banner_sub h2 span {
+  color: #000;
+  text-shadow: 1px 1px #999;
+}
+
+
+
+
+/* LESS THAN 1000 */
+@media screen and (max-width: 1000px) {
+  .banner_sub {
+    text-align: center;
+    background-size: auto 0%;
+  }
+  .banner h1,
+  .banner_sub h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .banner_sub h2 {
+    width: 100%;
+    padding: 0px 10%;
+    font-size: 28px;
+  }
+
+}
+
+
+
+
+.schedule {
+  position: absolute;
+  left: calc(50% - 150px);
+  bottom: -30px;
+  padding: 12px 52px;
+  color: #FFF;
+  font: normal 28px Cinzel, serif;
+  text-decoration: none;
+  background-color: #99CCFF;
+  border: none;
+  box-shadow: 1px 1px 5px #999;
+  z-index: 100;
+}
+.schedule:hover {
+  box-shadow: none;
+}
+
+
+
+
+

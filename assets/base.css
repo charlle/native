@@ -1,0 +1,130 @@
+/* 
+  BASE
+ 
+
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  width: 100%;
+  margin: 0px;
+  padding: 80px 20px;
+  position: relative;
+}
+article {
+  width: 100%;
+  margin: 0px;
+  padding: 0px 20px;
+  position: relative;
+}
+
+/*  FONTS  */
+@font-face {
+    font-family: "Cinzel";
+    src: url(fonts/Cinzel-Regular.ttf) format("truetype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url(fonts/Cinzel-Regular.ttf) format("truetype");		
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url(fonts/Cinzel-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url(fonts/Cinzel-Black.ttf) format("truetype");
+    font-weight: 900;
+}
+h1, h2, h3 {
+  font-weight: normal;
+  font-family: Cinzel, serif;
+  color: #99CCFF; 
+}
+h4, h5, h6, p, li, a {
+  font-weight: lighter;
+  color: #333;
+}
+h1 { font-size: 36px; }
+h2 { font-size: 32px; }
+h3 { font-size: 28px; }
+h4 { font-size: 22px; }
+h5 { font-size: 18px; }
+h6 { font-size: 14px; }
+p { font-size: 18px; line-height: 150%;}
+li { font-size: 16px; }
+ul { list-style-type: none; }
+a { text-decoration: none; }
+a:hover { color: #6699CC; }
+
+
+
+/*  COMMON  */
+.left { float: left; }
+.right { float: right; }
+.hidden { display: none; }
+.center { text-align: center; }
+.silver { background: #E6E8FA; }
+.view {
+  display: block;
+  color: #99CCFF;
+  font: bold 11px sans-serif;
+  text-align: left;
+}
+
+
+
+
+/*  BOX  */
+.box {
+  max-width: 1000px;
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+.box_two {
+  width: 45%;
+}
+.box_three {
+  width: 300px;
+  display: inline-block; 
+}
+
+/* LESS THAN 1,000 */
+@media screen and (max-width: 1000px) {
+  .box_three {
+    width: 90%;
+    float: none;
+    display: block;
+    margin: 30px auto;
+  }
+}
+
+/* LESS THAN 750 */
+@media screen and (max-width: 750px) {
+  .box_two {
+    width: 90%;
+    float: none;
+    display: block;
+    margin: 30px auto;
+  }
+}
+
+
+S

@@ -1,0 +1,41 @@
+{
+	"home": {
+		"banner": "Galardonado Bufete de Abogados Boutique",
+		"sub": "Un equipo altamente especializado de profesionales legales que brindan servicios de inmigración, asesoramiento interno, litigios y mediación para su clientela internacional.",
+		"H1": "DISTINCIÓN INTERNACIONAL",
+		"M1": "Nuestros abogados son reconocidos regularmente entre los mejores en su profesión. Proporcionan servicios legales de clase mundial, lo que los ha distinguido como 'Super Abogados' por más de 10 años. Con una práctica global y multi-jurisdiccional, TMCT lo representa donde sea necesario: Tribunales de Inmigración, Federal, Tributarios y de Bancarrota de los Estados Unidos.",
+		"H2": "BANCO EN EXCELENCIA",
+		"M2": "Con una práctica que abarca la inmigración a los derechos de los acreedores, nuestros abogados están comprometidos con la excelencia en sus campos y mejores rendimientos para nuestros clientes. Hemos sido pioneros en la recuperación rápida de activos para todo tipo de activos financieros, abogamos por la resolución alternativa de disputas (arbitraje y / o mediación) y optimizamos el proceso expansivo de inmigración legal.",
+		"H3": "UNA LUZ DE INTEGRIDAD",
+		"M3": "TMCT Law Firm tiene el privilegio de representar a una clientela diversa y global que abarca desde instituciones financieras multinacionales hasta familias de alto patrimonio y personas extraordinarias debido a la retención de los más altos estándares éticos. Ganar su confianza es nuestro mayor honor y enfoque persistente."
+	},
+	"about": {
+		"banner": "Un océano de Diferencia",
+		"H1": "Una Firma Internacional de Abogados Boutique",
+		"M1": "TMCT ofrece servicios legales distintivos a todos nuestros clientes. Nuestra práctica es multidisciplinaria, multi-jurisdiccional y globalmente consciente. Estamos disponibles donde nos necesite.",
+		"valH1": "Multidisciplinar",
+		"valM1": "Cuando se encuentre una posible disputa, es fundamental contar con un equipo legal experimentado y multidisciplinario que pueda identificar rápidamente los problemas y estabilizar la situación a través de acciones legales o resolución alternativa de disputas.",
+		"valH2": "Multi Jurisdictional",
+		"valM2": "Estamos donde nuestros clientes necesitan que estemos. Representamos regularmente a partes globales en asuntos internacionales, incluyendo litigios y resolución alternativa de disputas en múltiples jurisdicciones.",
+		"valH3": "Globalmente Consciente",
+		"valM3": "TMCT es un despacho de abogados boutique con un alcance global. Ofrecemos servicios legales a una clientela internacional extraordinaria y monitorizamos activamente los problemas globales en nombre de nuestros clientes.",	
+		"recH": "Líder Reconocido",
+		"recM": "Nuestros abogados han recibido el premio de 'Súper Abogado' durante más de una década. Se encuentran entre los mejores en su profesión y brindan servicios de inmigración, oficina familiar y resolución de disputas de clase mundial para nuestros clientes.",
+		"super": "Super Abogados",
+		"officeH": "Ubicaciones Premier",
+		"officeM": "Mantenemos oficinas en ubicaciones de primer nivel en todo el mundo para relacionarnos con nuestros clientes y permanecer en el centro de los problemas locales que los afectan en el terreno. Cuando surgen problemas legales, estamos posicionados para estar donde nos necesite.",
+		"officeA": "VER NUESTRAS OFICINAS",
+		"careersH": "Únase a una firma de abogados de clase mundial?",
+		"careersM": "TMCT es un despacho de abogados de clase mundial que representa a clientes internacionales desde grandes instituciones financieras multinacionales hasta familias de alto patrimonio y personas extraordinarias. Todos los miembros de nuestro equipo están comprometidos con la excelencia y aspiran a ser los mejores en su práctica. Tendrá la oportunidad de trabajar con algunos de los mejores en Inmigración, Familia y Resolución de Disputas.",
+		"careersA": "VER POSICIONES"
+	},
+	"contact": {
+		"banner": "Contáctenos"
+	},
+	"offices": {
+		"banner": "Ubicaciones Premier"
+	},
+	"team": {
+		"banner": "Profesionales Legales de Clase Mundial"
+	}
+}

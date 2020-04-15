@@ -1,0 +1,135 @@
+/* 
+	MAILCHIMP 
+
+*/
+
+.mc_overlay { 
+  position: fixed;
+  left: 0px;
+  top: 0px;
+
+  width: 100%;
+  height: 100%;
+  background-color: #666;
+  opacity: 0.75;
+  z-index: 100;
+}
+.mc_left {
+  float: left;
+}
+
+.mailchimp {
+  width: 700px;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  bottom: 60px;
+  margin-left: -350px;
+  padding-left: 50px;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #FFF;
+  border-radius: 8px;
+  z-index: 200;
+}
+.mailchimp h5 {
+  margin-top: 50px;
+  line-height: 30px;
+  font-weight: normal;
+}
+.mailchimp label {
+  color: #000;
+  display: block;
+  font: normal 16px sans-serif;
+}
+.mailchimp span {
+  color: #FF0000;
+}
+.mailchimp input {
+  width: 100%;
+  margin: 8px 0px 25px;
+  padding: 10px 5px;
+  color: #333;
+  font: normal 14px sans-serif;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+.mailchimp p {
+  margin-bottom: 50px;
+  color: #999;
+  font: lighter 12px sans-serif;
+  line-height: 22px;
+}
+
+#mc_submit {
+  margin: 20px 0px;
+  padding: 12px 32px;
+  color: #FFF;
+  font: normal 16px sans-serif;
+  text-decoration: none;
+  background-color: #99CCFF;
+  border: none;
+}
+#mc_submit:hover {
+  background-color: #6699CC;
+}
+
+.mc_right {
+  height: 100%;
+  min-height: 820px;
+  min-width: 330px;
+  max-width: 50%;
+  margin: 0px 0px 0px 40px;
+  display: flex;
+  float: right;
+
+  background-image: url('../../assets/img/liberty.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.mc_close {
+  font: normal 12px sans-serif;
+  color: #000;
+  text-align: center;
+  display: block;
+}
+.none { display: none; }
+.mc_hide {display: none;}
+
+@media screen and (max-width: 750px) {
+  .mailchimp {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+    margin-left: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    flex-direction: column-reverse;
+  }
+  .mc_left {
+    margin: 0px 30px;
+    float: none;
+    flex: 0 0 auto;
+  }
+
+  .mc_right {
+    width: 100%;
+    height: 250px;
+    min-width: auto;
+    max-width: 100%;
+    min-height: auto;
+    margin: 0px;
+    float: none;
+    flex: 0 0 auto;
+    background-position: center 15%;
+  }
+  .mc_close {font-size: 14px}
+
+}

@@ -1,0 +1,29 @@
+/* 
+  PAGE: HOME; 
+
+*/
+
+
+
+/* 
+  VALUES 
+
+*/
+.box_two img {
+  width: 100%;
+  height: 250px;
+  margin: 0px auto;
+  padding: 2px; 
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid #CCC;
+}
+.box_two h3 {
+  margin-top: 0px;
+}
+.box_two p {
+  text-align: justify;
+}
+.silver h3 {
+  color: #000;
+}

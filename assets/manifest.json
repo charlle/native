@@ -1,0 +1,13 @@
+/* 
+  MANIFEST
+ 
+
+
+*/
+
+{
+	"name": "TMCT Law Firm",
+  "permissions": [
+    "file:///*/"
+  ]
+}

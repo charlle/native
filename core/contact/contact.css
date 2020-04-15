@@ -1,0 +1,61 @@
+/* 
+	CONTACT 
+
+*/
+
+.email {
+  padding: 0px 20px;
+}
+.email_body {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0px;
+  overflow: hidden;
+  border: 1px solid #F0F0F0;
+}
+.email_body div {
+  max-width: 450px;
+  margin: 25px 0px;
+  padding: 0px 25px;
+}
+
+.email_body h4 {
+  margin: 0px;
+  padding: 15px 0px;
+  font: lighter 22px sans-serif;
+  color: #555;
+  letter-spacing: 7px;
+  border-bottom: 1px solid #F0F0F0;
+}
+.email_body p {
+  font: normal 16px sans-serif;
+  line-height: 200%;
+  color: #333;
+}
+.email_left {
+  float: left;
+}
+.email_right {
+  float: right;
+}
+
+.email_btn {
+  margin: 20px 0px;
+  padding: 12px 32px;
+  color: #FFF;
+  font: normal 16px sans-serif;
+  text-decoration: none;
+  background-color: #99CCFF;
+  border: none;
+}
+.email_btn:hover {
+  background-color: #6699CC;
+}
+
+@media screen and (max-width: 1000px) {
+  .email_body div, .email_left, .email_right {
+    max-width: 100%;
+    margin: 25px auto;
+    float: none;
+  }
+}

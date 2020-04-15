@@ -1,0 +1,80 @@
+/* 
+  PAGE: TEAM; 
+
+*/
+
+
+
+/* TEAM */
+.box_team {
+  margin: 60px auto;
+  padding: 80px 0px;
+  text-align: center;
+  overflow: hidden;
+  border: 7px double #E6E8FA;
+}
+.team {
+  width: 40%;
+  margin: 30px;
+  padding: 0px 0px 15px;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.team img {
+  min-width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center top;
+  margin: 0px auto 15px;
+}
+.team h4 {
+  margin: 0px;
+  padding: 3px 25px;
+  text-align: left;
+}
+.team h5 {
+  margin: 3px 0px 15px;
+  padding: 3px 25px;
+  text-align: left;
+  font-weight: normal;
+  font-variant: small-caps;
+  color: #000;
+}
+.team ul {
+  margin: 0px 23px;
+  padding: 15px 2px 0px;
+  text-align: left;
+  border-top: 1px solid #CCC;
+}
+.team li, a {
+  padding: 3px 0px;
+  color: #000;
+}
+
+
+
+/* LESS THAN 750 */
+@media screen and (max-width: 750px) {
+  .team {
+    width: 90%;
+    margin: 30px 0px;
+    box-shadow: -2px 2px 6px #CCC;
+  }
+
+  .team img {
+    height: 300px;
+  }
+
+}
+
+
+/* MORE THAN 1500 */
+/*@media screen and (min-width: 1500px) {
+  .team {
+    width: 28%;
+  }
+
+}*/
+

@@ -1,0 +1,107 @@
+/* 
+  PAGE: OFFICES; 
+
+*/
+
+
+
+
+/*  OFFICES  */
+.offices {
+  max-width: 330px;
+  margin: 50px;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.offices img {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.offices ul {
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+.offices li {
+  padding: 6px 0px;
+  line-height: 150%;
+}
+
+
+
+/* LESS THAN 750 */
+@media screen and (max-width: 750px) {
+  .offices {
+    max-width: 90%;
+    margin: 30px auto;
+  }
+
+}
+
+
+
+/* OFFICE INFO */
+.office {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+.office h2 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #CCC;
+}
+.office ul {
+  margin: 0px 0px 25px;
+  padding: 0px;
+  text-align: left;
+  list-style-type: none;
+}
+.office li {
+  padding: 6px 0px;
+  font: lighter 18px sans-serif;
+  color: #333;
+}
+.office li a {
+  color: #999;
+  font-weight: lighter;
+  text-decoration: none;
+}
+.office li a:hover {
+  color: #6699CC;
+}
+
+.office_map {
+  width: 70%;
+  padding: 30px 0px;
+  float: right;
+}
+.office_map img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* LESS THAN 1,000 */
+@media screen and (max-width: 1000px) {
+  .office {
+    width: 90%;
+    float: none;
+    margin: 30px auto;
+  }
+  .office_map {
+    width: 90%;
+    float: none;
+    margin: 0px auto;
+  }
+
+}
+
+
+
+
+
+
+

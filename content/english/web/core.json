@@ -1,0 +1,50 @@
+{	
+	"banner": {
+		"button": "Free Consult"
+	},
+	"contact": {
+		"H1": "FREE CONSULTATION",
+		"P1": "Schedule a <b>15 minute free</b> consultation to discuss you or your families legal matters to better understand your options and opportunities.",
+		"B1": "Free Consult",
+		"H2": "KEEP IN TOUCH",
+		"P2": "Receive trends, <b>insights</b>, and updates on the state of US Immigration, Visa & Residency Issues, and the most important Family Legal matters.",
+		"B2": "Contact Us" 
+	},
+	"footer": {
+		"H1": "TMCT Law Firm",
+		"L1": "Mailing Address",
+		"L2": "Company",
+		"L3": "Services",
+		"P1": "TMCT PLLC is a law firm representing the interests of their global clientele in Florida, New York, Washington DC, and US Federal & Immigration Courts. Our mailing address and phone number are ",
+		"link1": "About",
+		"link2": "People",
+		"link3": "Offices",
+		"link4": "Careers",
+		"link5": "Contact Us"
+	},
+	"recs": {
+		"H1": "HEAR FROM CLIENTS",
+		"data": [{
+			"topic": "Immigration: EB-1",
+			"name": "CHARLES SCHUMAKER",
+			"rec": "This place is amazing. I would love to be able to work with them again. They are fast efficient and a pleasure to work with..."
+			}, {
+			"topic": "Business Deals",
+			"name": "FRANK MIELE",
+			"rec": "Great Business Attorney!! ... quick, knowledgeable and has a great network"
+			}, {
+			"topic": "In-House Counsel",
+			"name": "SARRI HARPER",
+			"rec": "We are so grateful for your firm’s legal expertise, passion, dedication and professionalism."
+			}, {
+			"topic": "Mediation1",
+			"name": "CHAD GILLYARD",
+			"rec": "Best business attorney I have ever worked... mediating business issues that required immediate action."
+			}
+		]
+	},
+	"services": {
+		"H1": "LEGAL SERVICES",
+		"A1": "VIEW ALL SERVICES"
+	}
+}

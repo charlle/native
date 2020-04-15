@@ -1,0 +1,101 @@
+/* 
+  PAGE: PEOPLE; 
+
+*/
+
+.person {
+	padding: 0px 20px;
+	background: #111;
+
+}
+.person div.box {
+	height: 400px;
+}
+.person img {
+	height: 400px;
+	width: auto;
+	margin: 0px 20px;
+	float: left;
+}
+.person h2 {
+	margin: 80px 40px 10px;
+}
+.person h4 {
+	margin: 0px 45px;
+	color: #FFF;
+  font-weight: normal;
+  font-variant: small-caps;
+}
+/* .person ul {
+	margin: 85px 5px;
+} */
+.person li {
+	padding: 8px 0px;
+	color: #FFF;
+}
+.person a {
+	color: #FFF;
+}
+.person a:hover {
+	text-decoration: underline;
+}
+
+.p_details {
+	position: absolute;
+	top: 0px; right: 0px;
+	z-index: 100;
+}
+
+#blog {
+	margin-top: 80px;
+}
+
+#avvo {
+  width: 200px;
+}
+
+
+@media screen and (max-width: 750px) {
+	.person div.box {
+		overflow: visible;
+	}
+	.person img {
+		display: block;
+		margin: 0px auto;
+		float: none;
+	}
+
+	.p_details { 
+		position: relative;
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #F0F0F0;
+	}
+	.p_details h2 {
+		margin-top: 20px;
+	}
+
+	.p_details ul {
+		width: 100%;
+		margin: 50px 5px;
+		padding: 0px;
+	}
+	.p_details h4, 
+	.p_details li, 
+	.p_details a {
+		color: #333;
+	}
+	a.schedule {
+		color: #6699CC;
+	}
+
+
+
+	#blog {
+		margin-top: 390px;
+	}
+
+}
+
+
+

@@ -1,0 +1,87 @@
+/* 
+  PAGE: ABOUT; 
+
+*/
+
+
+/*  ABOUT  */
+.about img {
+  height: 250px;
+  width: 100%;
+  padding: 3px;
+  object-position: center;
+  object-fit: cover;
+  border: 2px solid #E6E8FA;
+}
+.about h4 {
+  margin: 15px 0px 0px;
+  text-align: left;
+}
+.about p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: justify;
+  color: #777;
+}
+
+
+.silver h3 {
+  color: #000;
+}
+.silver img {
+  width: 50px;
+  vertical-align: middle;
+}
+.silver ul {
+  padding: 0px;
+}
+.silver li {
+  margin: 0px 0px 50px;
+  font-size: 20px;
+  font-weight: normal;`
+}
+
+.a_offices {
+  padding: 120px 20px 40px;
+}
+.a_offices img {
+  margin-left: -150px;
+}
+
+.a_careers {
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/img/bg-team.svg');
+  background-position: center bottom;
+  background-size: auto 330px;
+}
+.a_careers a.view {
+  text-align: right;
+}
+
+/* LESS THAN 1,000 */
+@media screen and (max-width: 1000px) {
+  .about {
+    margin-top: -100px;
+  }
+  .a_offices img{
+    width: 100%;
+    margin: 0px;
+  }
+
+}
+
+/* LESS THAN 750 */
+@media screen and (max-width: 750px) {
+  .a_careers {
+    background-size: 75% auto;
+  }
+
+}
+
+
+
+
+
+

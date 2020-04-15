@@ -1,0 +1,4 @@
+### Arbitraje
+La mayoría de las empresas recurren cada vez más al arbitraje para resolver disputas. Podemos asociarnos con usted para comprender el entorno en el que opera y guiar sus necesidades en cada paso del proceso, desde el asesoramiento precontractual sobre cláusulas de arbitraje efectivas hasta la representación ante la AAA si surge una disputa.
+
+Nos comprometemos a garantizar que el arbitraje se adapte a sus necesidades y a las características de la disputa. Las cláusulas de arbitraje obligatorio deben tratar de reducir los gastos legales y el tiempo involucrado en un litigio estándar. Serviremos como sus asesores y defensores. Ya sea que intente presentar un reclamo en el arbitraje o haya recibido una notificación de arbitraje, podemos ayudarlo. Tenemos la experiencia en representar tanto a los demandantes como a los encuestados con un historial de resultados positivos.

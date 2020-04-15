@@ -1,0 +1,46 @@
+/* 
+  RECOMMENDATIONS
+
+
+*/
+
+.recs {
+  padding-bottom: 0px;
+  background:#FAFAFA;
+  border-top: 1px solid #FAFAFA;
+}
+.recs h3 {
+  color: #333;
+  letter-spacing: 7px;
+}
+
+section.recs div.box {
+  padding: 0px 20px 80px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: auto;
+}
+section.recs div.box div {
+  width: 250px;
+  margin: 40px 25px;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  overflow: hidden;
+  background: #FFF;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px #CCC;
+}
+.recs p {
+  margin: 0px 25px;
+  padding: 50px 0px;
+  font: italic 16px sans-serif;
+  line-height: 22px;
+  border-top: 1px solid #F0F0F0;
+}
+.recs h6 {
+  margin: 0px;
+  padding: 25px 0px;
+  color: #FAFAFA;
+  background: #CCC;
+}

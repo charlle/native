@@ -1,0 +1,4 @@
+### Arbitration
+Most businesses are increasingly turning to arbitration to resolve disputes. We can partner with you to understand the environment in which you operate and guide your needs each step of the process – from pre-contractual advice on effective arbitration clauses to representation before the AAA if a dispute arises. 
+
+We are committed to ensuring arbitration is shaped to suit your needs and the characteristics of the dispute. Mandatory arbitration clauses should seek to reduce the legal expense and time involved in standard litigation. We will serve as your advisers and advocates. Whether you seek to bring a claim in arbitration or have been served with a notice of arbitration, we are able to assist you. We have the experience in representing both claimants and respondents with a track record of positive results.

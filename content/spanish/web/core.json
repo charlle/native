@@ -1,0 +1,50 @@
+{
+	"banner": {
+		"button": "Consulta Gratis"
+	},
+	"contact": {
+		"H1": "CONSULTA GRATIS",
+		"P1": "Programe una consulta gratuita de 15 minutos para discutir asuntos legales suyos o de su familia para comprender mejor sus opciones y oportunidades.",
+		"B1": "Consulta Gratis",
+		"H2": "MANTENERSE EN CONTACTO",
+		"P2": "Reciba tendencias, ideas y actualizaciones sobre el estado de los asuntos de inmigración, visas y residencia en los Estados Unidos, y los asuntos legales familiares más importantes.",
+		"B2": "Contáctenos" 
+	},
+	"footer": {
+		"H1": "TMCT Law Firm",
+		"L1": "Dirección de Envio",
+		"L2": "Empresa",
+		"L3": "Servicios",
+		"P1": "TMCT PLLC es una firma de abogados que representa los intereses de su clientela global en Florida, Nueva York, Washington DC y los tribunales federales y de inmigración de los Estados Unidos. Nuestra dirección postal y número de teléfono son ",
+		"link1": "Sobre",
+		"link2": "Equipo",
+		"link3": "Oficinas",
+		"link4": "Carreras",
+		"link5": "Contáctenos"
+	},
+	"recs": {
+		"H1": "Escuche testimonios de nuestros clientes",
+		"data": [{
+			"topic": "Inmigración: EB-1",
+			"name": "CHARLES SCHUMAKER",
+			"rec": "Este lugar es increíble. Me encantaría poder trabajar con ellos nuevamente. Son rápidos y eficientes y es un placer trabajar con ellos ..."
+			}, {
+			"topic": "Asuntos de negocios",
+			"name": "FRANK MIELE",
+			"rec": "¡Gran abogado de negocios! ... rápido, conocedor y tiene una gran red"
+			}, {
+			"topic": "Consejo Interno",
+			"name": "SARRI HARPER",
+			"rec": "Estamos muy agradecidos por la experiencia legal, la pasión, la dedicación y la profesionalidad de su empresa."
+			}, {
+			"topic": "Mediación",
+			"name": "CHAD GILLYARD",
+			"rec": "El mejor abogado de negocios en el que he trabajado ... mediando problemas de negocios que requieren acción inmediata."
+			}
+		]
+	},
+	"services": {
+		"H1": "SERVICIOS LEGALES",
+		"A1": "VER TODOS LOS SERVICIOS"
+	}
+}

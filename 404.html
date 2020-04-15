@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- GOOGLE ANALYTICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149448749-1"></script>
+    <script type="module" src="lib/google.js"></script>
+
+<!-- META DATA -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="author" content="TMCT PLLC">
+
+<!-- 
+    base href
+      /tmct/  - works for prod
+      /       - works for local
+
+      This is limitation of github
+
+    @TODO
+      Need to check what happens with unique domain
+  --->    
+    <base href="/tmct/">
+<script>
+
+// Update Base Href 4 Local
+let w = window.location.href;
+
+if(w.match(/file/gi)) {
+  document.getElementsByTagName("base")[0]
+  .setAttribute("href", "./");
+}
+
+
+
+</script>
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="manifest" href="assets/manifest.json" />
+
+    <meta name="keywords" 
+      content="404, not, found, tmct, law, firm" />
+    <meta name="description" 
+      content="We apologize for the disappointment. We were unable to find this page." />
+    
+    <title>Page Not Found | TMCT Law Firm</title>
+
+<!-- STYLES --->
+    <link rel="stylesheet" type="text/css" href="assets/base.css">
+
+<!-- COMPONENTS --->
+    <script type="module" src="lib/router.js"></script>
+    <script type="module" src="./404.js"></script>
+
+  </head>
+  <body>
+
+<!-- HEADER --->
+    <header id="header"></header>
+
+
+<!-- BANNER --->
+    <div id="banner"></div>
+
+
+<!-- CONTACT --->
+    <div id="contact"></div>
+
+
+<!-- FOOTER --->
+    <div id="footer"></div>
+
+  </body>
+</html>

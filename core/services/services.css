@@ -1,0 +1,47 @@
+/* 
+  CORE: SERVICES; 
+
+*/
+
+
+
+
+/*  SERVICES  */
+.services {
+  background:url('../../assets/img/bg.png') repeat;
+  border-top: 1px solid #FAFAFA;
+}
+.services h2 {
+  color: #000;
+  letter-spacing: 7px;
+}
+.services div.box_three {
+  margin: 50px 0px;
+  vertical-align: top;
+}
+.services img {
+  width: 80px;
+  margin: 0px auto 15px;
+  display: block;
+}
+.services a {
+  font-size: 18px;
+  font-weight: normal;
+}
+.services a.view {
+  font-size: 11px;
+  text-align: right;
+  color: #6699CC;
+}
+
+/* LESS THAN 1,000 */
+@media screen and (max-width: 1000px) {
+  .services a.view {
+    text-align: center;
+  }
+  .services div.box_three {
+    width: 45%;
+    display: inline-block;
+    margin: 30px 0px;
+  }
+}
