@@ -72,7 +72,7 @@ export default function Header(state, light) {
       </select>
 
       <nav class="${light}">
-        <a href="javascript:app.Click('contact')">Contact</a>
+        <a href="https://github.com/charlle/native">GitHub</a>
         <a href="javascript:app.Click('about')">About</a>
         <a href="javascript:app.Click('team')">Team</a>
         <a href="javascript:app.Click('docs')">Docs</a>

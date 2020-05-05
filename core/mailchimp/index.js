@@ -37,17 +37,17 @@ export default function Mailchimp(state) {
           </div>
 
           <div class="field_group">
-            <label for="FNAME">First Name <span>*</span></label>
+            <label for="FNAME">First Name </label>
             <input type="text" value="" name="FNAME" id="mce-FNAME">
           </div>
 
           <div class="field_group">
-            <label for="LNAME">Last Name <span>*</span></label>
+            <label for="LNAME">Last Name </label>
             <input type="text" value="" name="LNAME" id="mce-LNAME">
           </div>
 
           <div class="field_group">
-            <label for="PHONE">Phone Number <span>*</span></label>
+            <label for="PHONE">Phone Number </label>
             <input type="text" value="" name="PHONE" id="mce-PHONE">
           </div>
 
