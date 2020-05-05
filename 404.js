@@ -23,10 +23,10 @@ function Redirect() {
   // CHECK PERMA LINKS
 	// Pull Services by Language
 	let lang = window.app.lang;
-	let services = targets.services[`${lang}`];
+	let features = targets.features[`${lang}`];
 	
 	let people = targets.people;
-	let tgt = services.concat(people);
+	let tgt = features.concat(people);
 
 	let url = tgt.find(x => x === page);
 
@@ -36,8 +36,8 @@ function Redirect() {
 		url = 'pages/people/index.html?page=' + url;
 	}
 
-	if(services.find(x => x === page)) {
-		url = 'pages/services/index.html?page=' + url;
+	if(features.find(x => x === page)) {
+		url = 'pages/features/index.html?page=' + url;
 	}
 
 	// REDIRECT TO PAGE
@@ -51,11 +51,9 @@ function NotFound() {
 	Redirect();
 
 	// DISPLAY 404 PAGE
-	let img = "assets/img/bg-404.svg";
+	let img = "assets/img/bg-404.png";
 	let msg = "404 - Page Not Found";
-	let sub = `
-	  Unfortunately we did not find this page. 
-	  Please <b>contact us</b> and we will be happy to help you.`;
+	let sub = `Are you lost?`;
 
 
 

@@ -2,6 +2,22 @@
   BASE
  
 
+DESIGN 
+  Colors
+  - Red: #990000;
+  - Blue: #6699FF;
+  - Green: #99CC33;
+  - Black: #000;
+  - Grey: #
+  - Purple: #660099;
+
+  Fonts
+  - Papyrus
+  - Herculanum
+  - Sans-Serif
+
+
+
 
 */
 
@@ -34,36 +50,27 @@ article {
 
 /*  FONTS  */
 @font-face {
-    font-family: "Cinzel";
-    src: url(fonts/Cinzel-Regular.ttf) format("truetype");
+    font-family: "Papyrus";
+    src: url(fonts/Papyrus.ttf) format("truetype");
     font-style: italic;
 }
 @font-face {
-    font-family: "Cinzel";
-    src: url(fonts/Cinzel-Regular.ttf) format("truetype");		
+    font-family: "Herc";
+    src: url(fonts/Herculanum.ttf) format("truetype");		
 }
-@font-face {
-    font-family: "Cinzel";
-    src: url(fonts/Cinzel-Bold.ttf) format("truetype");
-    font-weight: bold;
-}
-@font-face {
-    font-family: "Cinzel";
-    src: url(fonts/Cinzel-Black.ttf) format("truetype");
-    font-weight: 900;
-}
+
 h1, h2, h3 {
   font-weight: normal;
-  font-family: Cinzel, serif;
-  color: #99CCFF; 
+  font-family: Papyrus, sans-serif;
+  color: #222; 
 }
 h4, h5, h6, p, li, a {
   font-weight: lighter;
   color: #333;
 }
-h1 { font-size: 36px; }
-h2 { font-size: 32px; }
-h3 { font-size: 28px; }
+h1 { font-size: 46px; }
+h2 { font-size: 42px; }
+h3 { font-size: 38px; }
 h4 { font-size: 22px; }
 h5 { font-size: 18px; }
 h6 { font-size: 14px; }
@@ -71,7 +78,7 @@ p { font-size: 18px; line-height: 150%;}
 li { font-size: 16px; }
 ul { list-style-type: none; }
 a { text-decoration: none; }
-a:hover { color: #6699CC; }
+a:hover { color: #6699FF; }
 
 
 
@@ -80,10 +87,10 @@ a:hover { color: #6699CC; }
 .right { float: right; }
 .hidden { display: none; }
 .center { text-align: center; }
-.silver { background: #E6E8FA; }
+.silver { background: #F0F0F0; }
 .view {
   display: block;
-  color: #99CCFF;
+  color: #6699FF;
   font: bold 11px sans-serif;
   text-align: left;
 }

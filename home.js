@@ -8,7 +8,7 @@ import Header from './core/header/index.js';
 import Banner from './core/banner/index.js';
 import Recs from './core/recs/index.js';
 import Contact from './core/contact/index.js';
-import Services from './core/services/index.js';
+import Features from './core/features/index.js';
 import Footer from './core/footer/index.js';
 import Google from './lib/google.js';
 import {Render, Text} from './lib/core.js';
@@ -19,11 +19,11 @@ async function Values() {
   let w = content.home;
 
   const html = 
-    `<section>
+    `<section class="silver">
       <div class="box">
 
         <div class="box_two left">
-          <img src="assets/img/home-tower.jpg" alt="Tower" />
+          <img src="assets/img/home-components.png" alt="Web Components" />
         </div>
         <div class="box_two right">
           <h3>${w.H1}</h3>
@@ -33,7 +33,7 @@ async function Values() {
       </div>
     </section>
 
-    <section class="silver">
+    <section>
       <div class="box">
 
         <div class="box_two left">
@@ -41,17 +41,17 @@ async function Values() {
           <p>${w.M2}</p>
         </div>
         <div class="box_two right">
-          <img src="assets/img/home-horse.jpg" alt="Horse" />
+          <img src="assets/img/home-assets.png" alt="Static Assets" />
         </div>
 
       </div>
     </section>
 
-    <section>
+    <section class="silver">
       <div class="box">
 
         <div class="box_two left">
-          <img src="assets/img/home-london.jpg" alt="London" />
+          <img src="assets/img/home-hosting.png" alt="Free Hosting" />
         </div>
         <div class="box_two right">
           <h3>${w.H3}</h3>
@@ -59,7 +59,7 @@ async function Values() {
         </div>
 
       </div>
-    </section`;
+    </section>`;
 
   Render(html, document.querySelector('#values'));
 }
@@ -70,14 +70,14 @@ async function Home() {
   let content = await Text('pages');
   let w = content.home;
 
-	let img = "assets/img/bg-home.png";
+	let img = "assets/img/bg-home.jpg";
 	let msg = w.banner;
 	let sub = w.sub;
     
   Google()
-  Header();
+  Header('', 'light');
   Banner(img, msg, sub);
-  Services();
+  Features();
   Values();
   Recs();
   Contact();

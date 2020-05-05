@@ -1,50 +1,49 @@
 {	
 	"banner": {
-		"button": "Free Consult"
+		"button": "Get Started"
 	},
 	"contact": {
-		"H1": "FREE CONSULTATION",
+		"H1": "CONTRIBUTE",
 		"P1": "Schedule a <b>15 minute free</b> consultation to discuss you or your families legal matters to better understand your options and opportunities.",
-		"B1": "Free Consult",
-		"H2": "KEEP IN TOUCH",
-		"P2": "Receive trends, <b>insights</b>, and updates on the state of US Immigration, Visa & Residency Issues, and the most important Family Legal matters.",
-		"B2": "Contact Us" 
+		"B1": "Contribute",
+		"H2": "GET UPDATES",
+		"P2": "We'll send you updates, new releases, and <b>insights</b> on the latest developments in Web Components, JAM Stack, and all things NativeJs.",
+		"B2": "Subscribe" 
 	},
 	"footer": {
-		"H1": "TMCT Law Firm",
-		"L1": "Mailing Address",
-		"L2": "Company",
-		"L3": "Services",
-		"P1": "TMCT PLLC is a law firm representing the interests of their global clientele in Florida, New York, Washington DC, and US Federal & Immigration Courts. Our mailing address and phone number are ",
-		"link1": "About",
-		"link2": "People",
-		"link3": "Offices",
-		"link4": "Careers",
-		"link5": "Contact Us"
+		"H1": "Native Js",
+		"L1": "More",
+		"L2": "Features",
+		"P1": "Native is an Open Source JavaScript library to develop dynamic web interfaces and is available through the MIT License.",
+		"link1": "Team",
+		"link2": "About",
+		"link3": "Contact"
 	},
 	"recs": {
-		"H1": "HEAR FROM CLIENTS",
+		"H1": "HEAR FROM THE COMMUNITY",
 		"data": [{
-			"topic": "Immigration: EB-1",
-			"name": "CHARLES SCHUMAKER",
-			"rec": "This place is amazing. I would love to be able to work with them again. They are fast efficient and a pleasure to work with..."
+			"topic": "TMCT.law",
+			"name": "Cherish Thompson",
+			"rec": "Markdown and GitHub have been super easy for me to manage my site and team."
 			}, {
-			"topic": "Business Deals",
-			"name": "FRANK MIELE",
-			"rec": "Great Business Attorney!! ... quick, knowledgeable and has a great network"
+			"topic": "Delight.care",
+			"name": "Dr Delight",
+			"rec": "This is so much easier than Wordpress. I love the ease of use. Managing servers was always a mess."
 			}, {
-			"topic": "In-House Counsel",
-			"name": "SARRI HARPER",
-			"rec": "We are so grateful for your firm’s legal expertise, passion, dedication and professionalism."
-			}, {
-			"topic": "Mediation1",
-			"name": "CHAD GILLYARD",
-			"rec": "Best business attorney I have ever worked... mediating business issues that required immediate action."
+			"topic": "ATLVS.co",
+			"name": "Dev Team",
+			"rec": "We love the ease of use and simplicity. This is exactly what we needed for our website."
 			}
 		]
 	},
-	"services": {
-		"H1": "LEGAL SERVICES",
-		"A1": "VIEW ALL SERVICES"
+	"features": {
+		"H1": "FEATURES",
+		"A0": "VIEW ALL FEATURES",
+		"A1": "Vanilla JavaScript",
+		"F1": "Maximize reuse and portability with NativeJs. No matter what framework or library you are using they all support vanilla JavaScript.",
+		"A2": "Markdown Powered",
+		"F2": "Manage your content with the simplicity and speed of Markdown. This will liberate your writers and allow them to collaborate and version their content in world class tools like <a href='https://pages.github.com'>GitHub</a>.",
+		"A3": "Translation Ready",
+		"F3": "The world is increasingly becoming more global. Start your project with the ability to support multiple languages out of the box. Content is separated from presentation and can easily be translated with services like <a href='https://crowdin.com'>Crowdin</a>"
 	}
 }

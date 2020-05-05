@@ -1,13 +1,18 @@
 /* 
   HEADER 
 
+  @EDIT
+  - update facebook messenger with the page id of 
+    your facebook page and your theme color
+    page_id="your_fb_page_id"
+    theme_color="#brand_color"
 
 */
 
 import {Insert, Render} from '../../lib/core.js';
 
-export function Open(state) {
-  Header(state);
+export function Open(state, light) {
+  Header(state, light);
 }
 
 export function Translate(v) {
@@ -22,7 +27,7 @@ export function Select(v) {
 
 
 // Return Header
-export default function Header(state) {
+export default function Header(state, light) {
   let show = '';
   if(state === 'open') show = 'show';
   if(state === 'close') show = '';
@@ -33,8 +38,8 @@ export default function Header(state) {
         <!-- Your customer chat code -->
         <div class="fb-customerchat"
           attribution=setup_tool
-          page_id="1905306419750517"
-          theme_color="#99CCFF"
+          page_id="357292271076629"
+          theme_color="#333"
           logged_in_greeting="Hi! How can we help you?"
           logged_out_greeting="Hi! How can we help you?">
         </div>
@@ -42,23 +47,22 @@ export default function Header(state) {
 
     <div class="overlay ${show}" onclick="javascript:app.Open('close')"></div>
     <div class="navbar ${show}">
-      <a href="index.html"><img src="assets/img/tmct.png" alt="TMCT"/></a>
-      <a href="javascript:app.Click('contact')">contact</a>
-      <a href="javascript:app.Click('about')">about</a>
-      <a href="javascript:app.Click('team')">people</a>
-      <a href="javascript:app.Click('services')">services</a>
+      <a href="index.html"><img src="assets/img/native-red.png" alt="Native"/></a>
+      <a href="javascript:app.Click('contact')">Contact</a>
+      <a href="javascript:app.Click('about')">About</a>
+      <a href="javascript:app.Click('team')">Team</a>
+      <a href="javascript:app.Click('docs')">Docs</a>
       <a class="close" href="javascript:app.Open('close')">close</a>
     </div>
 
 
     <div class="box">
       <div>
-        <a href="index.html" class="logo"><img src="assets/img/tmct.png" alt="TMCT"/></a>
+        <a href="index.html" class="logo"><img src="assets/img/native-red.png" alt="Native"/></a>
         <div>
-          <h1>TMCT Law Firm</h1>
-          <hr class="black"/>
-          <hr/>
-          <h6>WASHINGTON DC . NEW YORK . LONDON . FLORIDA</h6>
+          <h1 class="${light}">NATIVE</h1>
+          <hr class="${light}"/>
+          <h6 class="${light}">Native Web Applications with vanilla JavaScript</h6>
         </div>
       </div>
 
@@ -67,15 +71,15 @@ export default function Header(state) {
         <option value="spanish"`+ Select('spanish') +`>Spanish</option>
       </select>
 
-      <nav>
-        <a href="javascript:app.Click('contact')">contact</a>
-        <a href="javascript:app.Click('about')">about</a>
-        <a href="javascript:app.Click('team')">people</a>
-        <a href="javascript:app.Click('services')">services</a>
+      <nav class="${light}">
+        <a href="javascript:app.Click('contact')">Contact</a>
+        <a href="javascript:app.Click('about')">About</a>
+        <a href="javascript:app.Click('team')">Team</a>
+        <a href="javascript:app.Click('docs')">Docs</a>
       </nav>
 
       <button type="button" class="header_menu" 
-        onclick="javascript:app.Open('open')">
+        onclick="javascript:app.Open('open', '${light}')">
         <img src="assets/img/menu.png" alt="Menu"/>
       </button>
     </div>`;

@@ -27,10 +27,10 @@ export default class Blog {
    
     let lang = window.app.lang
     if(cat) {
-      if(cat == 'services') { 
+      if(cat == 'features') { 
         this.urls = targets[cat][lang]; 
         if(!this.urls.find(x => x === page)) { 
-          this.state.page = 'services';
+          this.state.page = 'features';
         }
       }
       else { this.urls = targets[cat]; }
@@ -111,7 +111,7 @@ export default class Blog {
 
     // Pull MarkDown
     let folder = 'content/' + window.app.lang + '/';
-    let sub = (this.state.cat) ? this.state.cat : 'services';
+    let sub = (this.state.cat) ? this.state.cat : 'features';
     page = folder + sub + "/" + this.state.page + ".md"; 
     
     file = await loadDoc(page);

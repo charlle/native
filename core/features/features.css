@@ -1,0 +1,49 @@
+/* 
+  CORE: FEATURES; 
+
+*/
+
+
+
+
+/*  FEATURES  */
+.features {
+  border-top: 1px solid #FAFAFA;
+}
+.features h2 {
+  color: #000;
+  letter-spacing: 7px;
+}
+.features div.box_three {
+  margin: 50px 0px;
+  vertical-align: top;
+}
+.features img {
+  width: 200px;
+  margin: 0px auto 15px;
+  display: block;
+}
+.features a.view {
+  font-size: 11px;
+  text-align: right;
+  color: #6699CC;
+}
+.features p {
+  font-size: 16px;
+  font-weight: normal;
+}
+.features p a {
+  color: #6699CC;
+}
+
+/* LESS THAN 1,000 */
+@media screen and (max-width: 1000px) {
+  .features a.view {
+    text-align: center;
+  }
+  .features div.box_three {
+    width: 45%;
+    display: inline-block;
+    margin: 30px 0px;
+  }
+}

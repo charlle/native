@@ -1,50 +1,49 @@
-{
+{	
 	"banner": {
-		"button": "Consulta Gratis"
+		"button": "Get Started"
 	},
 	"contact": {
-		"H1": "CONSULTA GRATIS",
-		"P1": "Programe una consulta gratuita de 15 minutos para discutir asuntos legales suyos o de su familia para comprender mejor sus opciones y oportunidades.",
-		"B1": "Consulta Gratis",
-		"H2": "MANTENERSE EN CONTACTO",
-		"P2": "Reciba tendencias, ideas y actualizaciones sobre el estado de los asuntos de inmigración, visas y residencia en los Estados Unidos, y los asuntos legales familiares más importantes.",
-		"B2": "Contáctenos" 
+		"H1": "CONTRIBUTE",
+		"P1": "Schedule a <b>15 minute free</b> consultation to discuss you or your families legal matters to better understand your options and opportunities.",
+		"B1": "Contribute",
+		"H2": "GET UPDATES",
+		"P2": "We'll send you updates, new releases, and <b>insights</b> on the latest developments in Web Components, JAM Stack, and all things NativeJs.",
+		"B2": "Subscribe" 
 	},
 	"footer": {
-		"H1": "TMCT Law Firm",
-		"L1": "Dirección de Envio",
-		"L2": "Empresa",
-		"L3": "Servicios",
-		"P1": "TMCT PLLC es una firma de abogados que representa los intereses de su clientela global en Florida, Nueva York, Washington DC y los tribunales federales y de inmigración de los Estados Unidos. Nuestra dirección postal y número de teléfono son ",
-		"link1": "Sobre",
-		"link2": "Equipo",
-		"link3": "Oficinas",
-		"link4": "Carreras",
-		"link5": "Contáctenos"
+		"H1": "Native Js",
+		"L1": "More",
+		"L2": "Features",
+		"P1": "Native is an Open Source JavaScript library to develop dynamic web interfaces and is available through the MIT License.",
+		"link1": "Team",
+		"link2": "About",
+		"link3": "Contact"
 	},
 	"recs": {
-		"H1": "Escuche testimonios de nuestros clientes",
+		"H1": "HEAR FROM THE COMMUNITY",
 		"data": [{
-			"topic": "Inmigración: EB-1",
-			"name": "CHARLES SCHUMAKER",
-			"rec": "Este lugar es increíble. Me encantaría poder trabajar con ellos nuevamente. Son rápidos y eficientes y es un placer trabajar con ellos ..."
+			"topic": "TMCT.law",
+			"name": "Cherish Thompson",
+			"rec": "Markdown and GitHub have been super easy for me to manage my site and team."
 			}, {
-			"topic": "Asuntos de negocios",
-			"name": "FRANK MIELE",
-			"rec": "¡Gran abogado de negocios! ... rápido, conocedor y tiene una gran red"
+			"topic": "Delight.care",
+			"name": "Dr Delight",
+			"rec": "This is so much easier than Wordpress. I love the ease of use. Managing servers was always a mess."
 			}, {
-			"topic": "Consejo Interno",
-			"name": "SARRI HARPER",
-			"rec": "Estamos muy agradecidos por la experiencia legal, la pasión, la dedicación y la profesionalidad de su empresa."
-			}, {
-			"topic": "Mediación",
-			"name": "CHAD GILLYARD",
-			"rec": "El mejor abogado de negocios en el que he trabajado ... mediando problemas de negocios que requieren acción inmediata."
+			"topic": "ATLVS.co",
+			"name": "Dev Team",
+			"rec": "We love the ease of use and simplicity. This is exactly what we needed for our website."
 			}
 		]
 	},
-	"services": {
-		"H1": "SERVICIOS LEGALES",
-		"A1": "VER TODOS LOS SERVICIOS"
+	"features": {
+		"H1": "FEATURES",
+		"A0": "VIEW ALL FEATURES",
+		"A1": "Vanilla JavaScript",
+		"F1": "Maximize reuse and portability with NativeJs. No matter what framework or library you are using they all support vanilla JavaScript.",
+		"A2": "Markdown Powered",
+		"F2": "Manage your content with the simplicity and speed of Markdown. This will liberate your writers and allow them to collaborate and version their content in world class tools like <a href='https://pages.github.com'>GitHub</a>.",
+		"A3": "Translation Ready",
+		"F3": "The world is increasingly becoming more global. Start your project with the ability to support multiple languages out of the box. Content is separated from presentation and can easily be translated with services like <a href='https://crowdin.com'>Crowdin</a>"
 	}
 }

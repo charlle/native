@@ -21,15 +21,11 @@ function Team() {
   	html +=
   		`<div class="team">
 		    <img src="assets/team/${obj.image}" alt="${obj.name}">
-		    <h4>
-		    	<a href="javascript:app.Click('${obj.url}')">
-		    	${obj.name}
-		    	</a>
-		    </h4>
+		    <h4>${obj.name}</h4>
 		    <h5>${obj.title}</h5>
 		    <ul>
-		      <li>${obj.city}</li>
-		      <li><a href="tel:${obj.phone}">${obj.phone}</a></li>
+		      <li><a href="${obj.git}">GitHub</a></li>
+		      <li><a href="${obj.linkedin}">LinkedIn</a></li>
 			  	<li><a href="mailto:${obj.email}">${obj.email}</a></li>
 		    </ul>
 		  </div>`;

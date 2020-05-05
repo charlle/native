@@ -2,13 +2,13 @@
   HEADER
   height = 120px 
 
-  font: Cinzel vs Sans-Serif;
 
 */
 header {
   margin: 0px;
-  padding: 0px 20px 15px;
+  padding: 0px 20px;
   position: relative;
+  z-index: 100;
 }
 header a {
   display: inline-block;
@@ -19,7 +19,8 @@ header img {
   width: 100px; 
 }
 header h1 {
-  margin-bottom: 0px;
+  margin-bottom: -20px;
+  padding: 0px;
 }
 header h6 {
   margin-top: 8px;
@@ -30,13 +31,16 @@ header hr {
   height:3px; 
   margin:2px 0px 2px 0px; 
   padding:0px; 
-  color: #E6E8FA; 
-  background-color: #E6E8FA; 
+  color: #333; 
+  background-color: #333; 
   border:none;
 }
-header hr.black {
+
+h1.light {color: #FFF;}
+h6.light {color: #CCC;}
+hr.light {
   color: #F0F0F0; 
-  background-color: #F0F0F0;
+  background-color: #F0F0F0; 
 }
 
 nav {
@@ -56,6 +60,8 @@ nav a {
   line-height: 80px;
   letter-spacing: 1px;
 }
+nav.light a {color: #FFF;}
+nav.light a:hover {color: #6699FF;}
 
 select {
   position: absolute;

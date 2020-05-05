@@ -12,8 +12,8 @@ This is the complete list of completed items and should provide a comprehensive 
 	- [Cherish Thompson](../pages/people/index.html?page=cherish-thompson)
 	- Talle Malkemus
 	- ...
-- [Legal Services](../pages/services/index.html)
-	- [Immigration](../pages/services/index.html?page=immigration)
+- [Legal Services](../pages/features/index.html)
+	- [Immigration](../pages/features/index.html?page=immigration)
 	- Litigation
 	- ...
 - [Legal Notice](../pages/company/legal.html)

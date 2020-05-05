@@ -1,41 +1,40 @@
 {
 	"home": {
-		"banner": "Award Winning Boutique Law Firm",
-		"sub": "A highly specialized team of <span> legal professionals</span> providing immigration, in-house counsel, litigation, and mediation services for their international clientele.",
-		"H1": "TOWERING DISTINCTION",
-		"M1": "Our Lawyers are regularly recognized amongst the top in their profession. They provide world class legal services, which has distinguished them as 'Super Lawyers' for over 10 years. With a global and multi-jurisdictional practice, TMCT represents you where needed: US Immigration, Federal, Tax, and Bankruptcy Courts.",
-		"H2": "BANK ON EXCELLENCE",
-		"M2": "With a practice spanning Immigration to Creditor Rights, our Attorneys are committed to excellence in their fields and better returns for our clients. We have pioneered rapid asset recovery for all types of financial assets, advocated for alternative dispute resolution (arbitration and/or mediation), and optimized the expansive legal immigration process.",
-		"H3": "A LIGHT OF INTEGRITY",
-		"M3": "TMCT Law Firm has the privilege of representing a diverse and global clientele ranging from multinational financial institutions to high net worth families and extraordinary indivduals due to retaining the highest ethical standards. Earning their trust is our highest honor and persistent focus."
+		"banner": "Native Web Applications",
+		"sub": "Build fast and efficient user interfaces with native <span>web components</span>. No need for managing builds or even servers!",
+		"H1": "Web Components",
+		"M1": "Modern web browsers support modular, componentized JavaScript natively. Native Js gives you the power of a front end framework without the overhead. Web components have the natural advantage of fast load times and portability to any application. You can even dynamically import functions the way React and Angular do it.",
+		"H2": "No Builds Required",
+		"M2": "Immediately eliminate the headache of building and deploying your code. Native Js enables you to simply code and commit. Since everything is native to the web browser, you can test and debug your web application without running a server.",
+		"H3": "Free Hosting",
+		"M3": "When your ready to deploy simply commit your code to GitHub, no build required. Using free services, like GitHub Pages, your changes will automatically be live. No more setting up and maintaining servers."
 	},
 	"about": {
-		"banner": "An Ocean of Difference",
-		"H1": "A Boutique International Law Firm",
-		"M1": "TMCT offers distinctive legal services to all our clients. Our practice is Multi-Disciplined, Multi-Jurisdictional, and Globally Aware. We are available where you need us.",
-		"valH1": "Multi Disciplined",
-		"valM1": "When a potential dispute occurs, it is critical to have an experienced, multi-disciplinary legal team that can quickly identify the issues and stabilize the situation through legal action or alternative dispute resolution.",
-		"valH2": "Multi Jurisdictional",
-		"valM2": "We are where our clients need us to be. We regularly represent global parties in international matters, including litigation and alternative dispute resolution in multiple jurisdictions.",
-		"valH3": "Globally Aware",
-		"valM3": "TMCT is a boutique law firm with a global reach. We offer legal services to an extraordinary international clientele and actively monitor global issues on behalf of our clients.",	
+		"banner": "Evolution of the Web",
+		"H1": "JavaScript is <u>the</u> language of the web.",
+		"M1": "Native Js relies on the core languages and technologies we leverage everyday without any added fluff, bloat, or complexity. We believe in keeping things really simple... fast and efficient. You don't need anything more than HTML, CSS, JavaScript, and your Browser",
+		"valH1": "Classes",
+		"valM1": "JavaScript Classes may be only a syntactical change for the language, but we are super happy they made it, giving us the immediate familiarity of many object orientated languages. Thank you!!",
+		"valH2": "Modules",
+		"valM2": "ES6 released built in modules, allowing you to import and export JavaScript functions, which was quickly supported in all major browsers. You can easily abstract your code into components and libraries.",
+		"valH3": "Async + Await",
+		"valM3": "Every new release keeps getting better. ES7 brought us a better implementation of Promises, Async & Await. Adding Async to your functions and classes makes them soooo much easier to write. No more messy callbacks or nested functions.",	
 		"recH": "Recognized Leader",
-		"recM": "Our Lawyers have been awarded the 'Super Lawyer' designation for over a decade. They are amongst the top in their profession and provide world class immigration, family office, and dispute resolution services for our clients.",
-		"super": "Super Lawyers",
-		"officeH": "Premier Locations",
-		"officeM": "We retain offices in premier locations across the world to engage with our clients and stay at the heart of local issues affecting them on the ground. When legal issues arise we are positioned to be where you need us.",
-		"officeA": "VIEW OUR OFFICES",
-		"careersH": "Join A World Class Law Firm?",
-		"careersM": "TMCT is a world class law firm representing international clients from large multi-national financial institutions to high net worth families and extraordinary individuals. All of our team members are committed to excellence and aspire to be the best in their practice. You will have the opportunity to work with some of the best in Immigration, Family, and Dispute Resolution.",
-		"careersA": "VIEW POSITIONS"
+		"recM": "With extremely high throughput and naturally asynchronous, JavaScript was built for speed. It has many benefits to offer any application. While it has dominated the Web for many years, it is quickly becoming the language of choice for both Mobile apps and API services.",
+		"lead1": "Web Applications",
+		"lead2": "Mobile Applications",
+		"lead3": "APIs & Microservices",
+		"officeH": "Used Worldwide",
+		"officeM": "JavaScript is the most dominant programming language used worldwide. Almost 70% of all developers have it in their toolkits. You can find it heaviliy used in almost every country. If you haven't started learning it already, you should.",
+		"officeA": "START LEARNING",
+		"devsH": "Join Other Top Developers?",
+		"devsM": "Would you like to contribute to a great open source project and be a part of the future of the web stack. We're building the next gen capabilities for fast, dynamic, and native websites. Check out our list of open issues to get started.",
+		"devsA": "VIEW ISSUES"
 	},
 	"contact": {
 		"banner": "Contact Us"
 	},
-	"offices": {
-		"banner": "Premier Locations"
-	},
 	"team": {
-		"banner": "World Class <br/>Legal Professionals"
+		"banner": "World Class Contributors"
 	}
 }

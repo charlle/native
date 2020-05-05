@@ -68,7 +68,7 @@
   color: #FFF;
   font: normal 16px sans-serif;
   text-decoration: none;
-  background-color: #99CCFF;
+  background-color: #6699FF;
   border: none;
 }
 #mc_submit:hover {
@@ -84,7 +84,7 @@
   display: flex;
   float: right;
 
-  background-image: url('../../assets/img/liberty.jpg');
+  background-image: url('../../assets/img/freedom.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

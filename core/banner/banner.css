@@ -8,10 +8,11 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  z-index: 10;
 }
 .banner h1 {
   color: #FFF;
-  padding: 10px;
+  padding: 20px 10px 10px;
   text-align: center;
   background: #000;
   opacity: 0.7;
@@ -19,25 +20,29 @@
 
 
 .banner_sub {
-  min-height: 500px;
-  background-size: contain;
-  background-position: bottom right;
+  min-height: 600px;
+  margin-top: -140px;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  z-index: 10;
 }
 .banner_sub h1 {
-  width: 50%;
-  margin-top: 0px;
+  width: 100%;
+  margin-top: 140px;
   font-size: 44px;
+  color: #FFF;
 }
 .banner_sub h2 {
-  width: 50%;
-  color: #555;
+  width: 100%;
+  color: #F0F0F0;
   line-height: 150%;
-  text-shadow: 3px 3px 3px #FFF;
+  text-shadow: 1px 1px 1px #000;
 }
 .banner_sub h2 span {
-  color: #000;
-  text-shadow: 1px 1px #999;
+  color: #6699FF;
+  font-weight: bold;
 }
 
 
@@ -45,10 +50,6 @@
 
 /* LESS THAN 1000 */
 @media screen and (max-width: 1000px) {
-  .banner_sub {
-    text-align: center;
-    background-size: auto 0%;
-  }
   .banner h1,
   .banner_sub h1 {
     width: 100%;
@@ -64,7 +65,6 @@
 
 
 
-
 .schedule {
   position: absolute;
   left: calc(50% - 150px);
@@ -73,7 +73,7 @@
   color: #FFF;
   font: normal 28px Cinzel, serif;
   text-decoration: none;
-  background-color: #99CCFF;
+  background-color: #6699FF;
   border: none;
   box-shadow: 1px 1px 5px #999;
   z-index: 100;

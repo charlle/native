@@ -1,41 +1,40 @@
 {
 	"home": {
-		"banner": "Galardonado Bufete de Abogados Boutique",
-		"sub": "Un equipo altamente especializado de profesionales legales que brindan servicios de inmigración, asesoramiento interno, litigios y mediación para su clientela internacional.",
-		"H1": "DISTINCIÓN INTERNACIONAL",
-		"M1": "Nuestros abogados son reconocidos regularmente entre los mejores en su profesión. Proporcionan servicios legales de clase mundial, lo que los ha distinguido como 'Super Abogados' por más de 10 años. Con una práctica global y multi-jurisdiccional, TMCT lo representa donde sea necesario: Tribunales de Inmigración, Federal, Tributarios y de Bancarrota de los Estados Unidos.",
-		"H2": "BANCO EN EXCELENCIA",
-		"M2": "Con una práctica que abarca la inmigración a los derechos de los acreedores, nuestros abogados están comprometidos con la excelencia en sus campos y mejores rendimientos para nuestros clientes. Hemos sido pioneros en la recuperación rápida de activos para todo tipo de activos financieros, abogamos por la resolución alternativa de disputas (arbitraje y / o mediación) y optimizamos el proceso expansivo de inmigración legal.",
-		"H3": "UNA LUZ DE INTEGRIDAD",
-		"M3": "TMCT Law Firm tiene el privilegio de representar a una clientela diversa y global que abarca desde instituciones financieras multinacionales hasta familias de alto patrimonio y personas extraordinarias debido a la retención de los más altos estándares éticos. Ganar su confianza es nuestro mayor honor y enfoque persistente."
+		"banner": "Native Web Applications",
+		"sub": "Build fast and efficient user interfaces with native <span>web components</span>. No need for managing builds or even servers!",
+		"H1": "Web Components",
+		"M1": "Modern web browsers support modular, componentized JavaScript natively. Native Js gives you the power of a front end framework without the overhead. Web components have the natural advantage of fast load times and portability to any application. You can even dynamically import functions the way React and Angular do it.",
+		"H2": "No Builds Required",
+		"M2": "Immediately eliminate the headache of building and deploying your code. Native Js enables you to simply code and commit. Since everything is native to the web browser, you can test and debug your web application without running a server.",
+		"H3": "Free Hosting",
+		"M3": "When your ready to deploy simply commit your code to GitHub, no build required. Using free services, like GitHub Pages, your changes will automatically be live. No more setting up and maintaining servers."
 	},
 	"about": {
-		"banner": "Un océano de Diferencia",
-		"H1": "Una Firma Internacional de Abogados Boutique",
-		"M1": "TMCT ofrece servicios legales distintivos a todos nuestros clientes. Nuestra práctica es multidisciplinaria, multi-jurisdiccional y globalmente consciente. Estamos disponibles donde nos necesite.",
-		"valH1": "Multidisciplinar",
-		"valM1": "Cuando se encuentre una posible disputa, es fundamental contar con un equipo legal experimentado y multidisciplinario que pueda identificar rápidamente los problemas y estabilizar la situación a través de acciones legales o resolución alternativa de disputas.",
-		"valH2": "Multi Jurisdictional",
-		"valM2": "Estamos donde nuestros clientes necesitan que estemos. Representamos regularmente a partes globales en asuntos internacionales, incluyendo litigios y resolución alternativa de disputas en múltiples jurisdicciones.",
-		"valH3": "Globalmente Consciente",
-		"valM3": "TMCT es un despacho de abogados boutique con un alcance global. Ofrecemos servicios legales a una clientela internacional extraordinaria y monitorizamos activamente los problemas globales en nombre de nuestros clientes.",	
-		"recH": "Líder Reconocido",
-		"recM": "Nuestros abogados han recibido el premio de 'Súper Abogado' durante más de una década. Se encuentran entre los mejores en su profesión y brindan servicios de inmigración, oficina familiar y resolución de disputas de clase mundial para nuestros clientes.",
-		"super": "Super Abogados",
-		"officeH": "Ubicaciones Premier",
-		"officeM": "Mantenemos oficinas en ubicaciones de primer nivel en todo el mundo para relacionarnos con nuestros clientes y permanecer en el centro de los problemas locales que los afectan en el terreno. Cuando surgen problemas legales, estamos posicionados para estar donde nos necesite.",
-		"officeA": "VER NUESTRAS OFICINAS",
-		"careersH": "Únase a una firma de abogados de clase mundial?",
-		"careersM": "TMCT es un despacho de abogados de clase mundial que representa a clientes internacionales desde grandes instituciones financieras multinacionales hasta familias de alto patrimonio y personas extraordinarias. Todos los miembros de nuestro equipo están comprometidos con la excelencia y aspiran a ser los mejores en su práctica. Tendrá la oportunidad de trabajar con algunos de los mejores en Inmigración, Familia y Resolución de Disputas.",
-		"careersA": "VER POSICIONES"
+		"banner": "Evolution of the Web",
+		"H1": "JavaScript is <u>the</u> language of the web.",
+		"M1": "Native Js relies on the core languages and technologies we leverage everyday without any added fluff, bloat, or complexity. We believe in keeping things really simple... fast and efficient. You don't need anything more than HTML, CSS, JavaScript, and your Browser",
+		"valH1": "Classes",
+		"valM1": "JavaScript Classes may be only a syntactical change for the language, but we are super happy they made it, giving us the immediate familiarity of many object orientated languages. Thank you!!",
+		"valH2": "Modules",
+		"valM2": "ES6 released built in modules, allowing you to import and export JavaScript functions, which was quickly supported in all major browsers. You can easily abstract your code into components and libraries.",
+		"valH3": "Async + Await",
+		"valM3": "Every new release keeps getting better. ES7 brought us a better implementation of Promises, Async & Await. Adding Async to your functions and classes makes them soooo much easier to write. No more messy callbacks or nested functions.",	
+		"recH": "Recognized Leader",
+		"recM": "With extremely high throughput and naturally asynchronous, JavaScript was built for speed. It has many benefits to offer any application. While it has dominated the Web for many years, it is quickly becoming the language of choice for both Mobile apps and API services.",
+		"lead1": "Web Applications",
+		"lead2": "Mobile Applications",
+		"lead3": "APIs & Microservices",
+		"officeH": "Used Worldwide",
+		"officeM": "JavaScript is the most dominant programming language used worldwide. Almost 70% of all developers have it in their toolkits. You can find it heaviliy used in almost every country. If you haven't started learning it already, you should.",
+		"officeA": "START LEARNING",
+		"devsH": "Join Other Top Developers?",
+		"devsM": "Would you like to contribute to a great open source project and be a part of the future of the web stack. We're building the next gen capabilities for fast, dynamic, and native websites. Check out our list of open issues to get started.",
+		"devsA": "VIEW ISSUES"
 	},
 	"contact": {
-		"banner": "Contáctenos"
-	},
-	"offices": {
-		"banner": "Ubicaciones Premier"
+		"banner": "Contact Us"
 	},
 	"team": {
-		"banner": "Profesionales Legales de Clase Mundial"
+		"banner": "World Class Contributors"
 	}
 }

@@ -46,17 +46,18 @@
   padding: 120px 20px 40px;
 }
 .a_offices img {
-  margin-left: -150px;
+  width: 100%;
+  margin-top: 50px;
 }
 
-.a_careers {
+.a_devs {
   min-height: 600px;
   background-repeat: no-repeat;
-  background-image: url('../../assets/img/bg-team.svg');
+  background-image: url('../../assets/img/a-team.png');
   background-position: center bottom;
   background-size: auto 330px;
 }
-.a_careers a.view {
+.a_devs a.view {
   text-align: right;
 }
 
@@ -67,15 +68,17 @@
   }
   .a_offices img{
     width: 100%;
-    margin: 0px;
   }
 
 }
 
 /* LESS THAN 750 */
 @media screen and (max-width: 750px) {
-  .a_careers {
+  .a_devs {
     background-size: 75% auto;
+  }
+  .a_offices img{
+    margin: 0px;
   }
 
 }

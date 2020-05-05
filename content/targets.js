@@ -12,37 +12,24 @@
 export const targets = 
 {
 	"people": [
-		"talle-malkemus",
-		"cherish-thompson",
-		"james-pointon",
-		"joe-deng",
-		"julia-kirst",
-		"bruna-bradshaw"
+		"charleston-malkemus"
 	],
-	"services": {
+	"features": {
 		"english": [
-			"immigration",
-			"student-visa",
-			"employment-visa",
-			"investor-visa",
-			"permanent-residence",
-			"naturalization",
-			"in-house-counsel",
-			"litigation",
-			"arbitration",
-			"mediation"
+			"web-components",
+			"vanilla-javascript",
+			"markdown",
+			"translation",
+			"no-builds",
+			"free-hosting"
 		],
 		"spanish": [
-			"inmigración",
-	 		"visa-de-estudiante",
-	 		"visa-de-empleo",
-	 		"visa-de-inversionista",
-	 		"residencia-permanente",
-	 		"naturalización",
-	 		"consejo-interno",
-	 		"litigio",
-	 		"arbitraje",
-	 		"mediación"
+			"web-components",
+			"vanilla-javascript",
+			"markdown",
+			"translation",
+			"no-builds",
+			"free-hosting"
 		]
 	}
 }

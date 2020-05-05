@@ -6,7 +6,6 @@
 
 .recs {
   padding-bottom: 0px;
-  background:#FAFAFA;
   border-top: 1px solid #FAFAFA;
 }
 .recs h3 {
@@ -27,7 +26,7 @@ section.recs div.box div {
   vertical-align: top;
   white-space: normal;
   overflow: hidden;
-  background: #FFF;
+  background: #FAFAFA;
   border-radius: 6px;
   box-shadow: 1px 1px 3px #CCC;
 }
@@ -41,6 +40,6 @@ section.recs div.box div {
 .recs h6 {
   margin: 0px;
   padding: 25px 0px;
-  color: #FAFAFA;
-  background: #CCC;
+  color: #FFF;
+  background: #6699FF;
 }

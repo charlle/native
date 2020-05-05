@@ -1,4 +1,4 @@
-![TMCT Banner](/docs/img/tmct-banner.png)
+![Native](/docs/img/native-red.png)
 
 ### Welcome
 Welcome to your website. You can edit your content and make live updates to your website right here. In order to get started see the instructions below.

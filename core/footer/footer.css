@@ -28,13 +28,11 @@
   list-style-type: none;
 }
 .footer_links li {
-  width: 175px;
+  width: 220px;
   padding: 6px 0px;
   font: lighter 16px sans-serif;
+  text-align: right;
   color: #444;
-}
-.fl_wide li{
-  width: 200px;
 }
 .footer_links li a {
   color: #444;
@@ -103,6 +101,7 @@ li.copyright {
   }
   .footer_links li {
     width: 100%;
+    text-align: center;
     
   }
   ul.fl_wide {

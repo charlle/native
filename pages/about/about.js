@@ -29,19 +29,19 @@ async function Overview() {
       <div class="box center">
 
         <div class="box_three left">
-          <img src="assets/img/a-court.jpg">
+          <img src="assets/img/a-class.png">
           <h4>${w.valH1}</h4>
           <p>${w.valM1}</p>
         </div>
 
         <div class="box_three">
-          <img src="assets/img/a-chess.jpg">
+          <img src="assets/img/a-module.jpg">
           <h4>${w.valH2}</h4>
           <p>${w.valM2}</p>
         </div>
 
         <div class="box_three right">
-          <img src="assets/img/a-scales.jpg">
+          <img src="assets/img/a-async.png">
           <h4>${w.valH3}</h4>
           <p>${w.valM3}</p>
         </div>
@@ -62,15 +62,15 @@ async function Overview() {
           <ul>
             <li>
               <img src="assets/img/icon-award.png">
-              ${w.super} 2019
+              ${w.lead1}
             </li>
             <li>
               <img src="assets/img/icon-award.png">
-              ${w.super} 2018
+              ${w.lead2}
             </li>
             <li>
               <img src="assets/img/icon-award.png">
-              ${w.super} 2017
+              ${w.lead3}
             </li>
           </ul>
         </div> 
@@ -89,7 +89,7 @@ async function Overview() {
         <div class="box_two left">
 	        <h3>${w.officeH}</h3>
 	        <p>${w.officeM}</p>
-          <a href="javascript:app.Click('offices')" class="view">
+          <a href="https://www.javascript.com" class="view">
             ${w.officeA}
           </a>
         </div>
@@ -97,13 +97,13 @@ async function Overview() {
       </div>
     </section>
 
-<!-- CAREERS --->
-    <section class="a_careers">
+<!-- CONTRIBUTORS --->
+    <section class="a_devs">
       <div class="box center">
-        <h3>${w.careersH}</h3>
-        <p>${w.careersM}</p>
-        <a href="javascript:app.Click('careers')" class="view">
-          ${w.careersA}
+        <h3>${w.devsH}</h3>
+        <p>${w.devsM}</p>
+        <a href="https://github.com/charlle/native/issues" class="view">
+          ${w.devsA}
         </a>
       </div>
     </section>`;
@@ -117,7 +117,7 @@ async function About() {
   let content = await Text('pages');
   let w = content.about;
 
-	let img = "assets/img/bg-about.jpg";
+	let img = "assets/img/bg-about.png";
   let msg = w.banner;
 
   Google();

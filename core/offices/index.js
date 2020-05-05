@@ -22,11 +22,11 @@ export default class Office {
 	        <div class="office">
 	          <h2>${o.office}</h2>
 	          <ul>
-	            <li><a href="tel:${o.phone}">
-	              ${o.phone}
+	            <li><a href="tel:${o.msgr}">
+	              Messenger
 	            </a></li>
-	            <li><a href="mailto:${o.email}">
-	              ${o.email}
+	            <li><a href="mailto:${o.page}">
+	              Facebook
 	            </a></li>
 	          </ul>
 	          <ul>
