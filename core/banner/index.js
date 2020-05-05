@@ -24,7 +24,7 @@ export default async function Banner(img, msg, sub) {
         ${s}
       </div>
       <button class="schedule" 
-        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tmct-law-firm/consulting'});return false;">
+        onclick="javascript:app.Click('docs')">
         ${w.button}
       </button>
     </section>`;
@@ -32,9 +32,9 @@ export default async function Banner(img, msg, sub) {
   Insert('core/banner/banner.css');
   Render(html, document.querySelector('#banner'));
 
-  // Calendly
-  Insert('https://assets.calendly.com/assets/external/widget.css');
-  Script('https://assets.calendly.com/assets/external/widget.js');
+  // Add Calendly
+  // Insert('https://assets.calendly.com/assets/external/widget.css');
+  // Script('https://assets.calendly.com/assets/external/widget.js');
   
   return;
 }

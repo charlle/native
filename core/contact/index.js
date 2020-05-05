@@ -28,9 +28,9 @@ export default async function Contact() {
         <div class="email_left">
           <h4>${w.H1}</h4>
           <p>${w.P1}</p>
-          <!-- CALENDLY --->
+          <!-- CONTRIBUTE --->
           <button class="email_btn" 
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tmct-law-firm/consulting'});return false;">
+            onclick="javascript:app.Click('docs')">
             ${w.B1}
           </button>
         </div>
