@@ -1,4 +1,4 @@
-![Native](/docs/img/native-red.png)
+![Native](/docs/img/native-banner.png)
 
 ### Welcome
 Welcome to your website. You can edit your content and make live updates to your website right here. In order to get started see the instructions below.
