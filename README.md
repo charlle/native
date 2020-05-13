@@ -32,7 +32,3 @@ Server will start running on port 8080.
 3. [Remove Offices](docs/offices.md#remove)
 
 *CAUTION*: Some of these files may have external links or be referenced through search engines like Google.com. I would recommend only removing a file when absolutely necessary.
-
-
-
-
