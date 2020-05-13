@@ -10,6 +10,6 @@ Handler.extensions_map.update({
 })
 
 httpd = socketserver.TCPServer(("", PORT), Handler)
-print ("Serving at port", PORT)
+print ("Serving at port:", PORT)
 
 httpd.serve_forever()
