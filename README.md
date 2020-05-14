@@ -3,6 +3,15 @@
 ### Welcome
 Welcome to your website. You can edit your content and make live updates to your website right here. In order to get started see the instructions below.
 
+### Setup Local Development Environment
+
+Make sure you have python installed (preferably >3.X).
+
+```
+py ./server.py
+```
+
+Server will start running on port 8080.
 
 #### What Can I Edit
 1. [Edit Your Profile](docs/profile.md)
@@ -23,7 +32,3 @@ Welcome to your website. You can edit your content and make live updates to your
 3. [Remove Offices](docs/offices.md#remove)
 
 *CAUTION*: Some of these files may have external links or be referenced through search engines like Google.com. I would recommend only removing a file when absolutely necessary.
-
-
-
-
