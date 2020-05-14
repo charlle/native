@@ -19,6 +19,16 @@ export const team = [
 			"linkedin": "https://www.linkedin.com/in/malkemus/",
 			"email": "cgmalkemus@gmail.com",
 			"image": "charleston-malkemus.jpg"
+		},
+		{
+			"order": 2,
+			"url": "suhas-mehta",
+			"name": "Suhas Mehta",
+			"title": "Contributor",
+			"git": "https://github.com/suhas92",
+			"linkedin": "https://www.linkedin.com/in/suhas92/",
+			"email": "suhas.mehta@gmail.com",
+			"image": "suhas-mehta.png"
 		}
 
 	]
