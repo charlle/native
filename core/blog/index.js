@@ -202,9 +202,9 @@ export default class Blog {
 
   <!-- CONTENT --->
       <div class="blog">
-        <h3>Immigration</h3>
+        <h3>Feature</h3>
         <p>
-          We have the experience necessary to represent our clients before state, federal and governmental agencies. The immigration rules are constantly in review, but our legal team offers professional expertise to deliver the best results. Our Law Firm provides solutions to live, work and invest in the United States. We can also provide assistance with applications for work authorization, permanent residency, and naturalization.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
   <!-- LINKS --->   

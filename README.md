@@ -15,19 +15,19 @@ Server will start running on port 8080.
 
 #### What Can I Edit
 1. [Edit Your Profile](docs/profile.md)
-2. [Edit Your Legal Services](docs/services.md)
+2. [Edit Your Services](docs/services.md)
 3. [Edit Team Members](docs/team-members.md)
 4. [Edit Offices](docs/offices.md)
 
 
 #### What Can I Add
-1. [Add Legal Services](docs/services.md#add)
+1. [Add Services](docs/services.md#add)
 2. [Add Team Members](docs/team-members.md#add)
 3. [Add Offices](docs/offices.md#add)
 
 
 #### What Can I Remove
-1. [Remove Legal Services](docs/services.md#remove)
+1. [Remove Services](docs/services.md#remove)
 2. [Remove Team Members](docs/team-members.md#remove)
 3. [Remove Offices](docs/offices.md#remove)
 

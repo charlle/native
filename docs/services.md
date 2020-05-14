@@ -1,5 +1,5 @@
-### Legal Services
-You can edit or add legal services to your website. 
+### Services
+You can edit or add services to your website. 
 - [Edit Service](#edit)
 - [Add Service](#add)
 - [Remove Service](#remove)
@@ -48,7 +48,7 @@ export const targets =
 
 
 #### Remove
-Follow these steps to remove a legal service from your website. 
+Follow these steps to remove a service from your website. 
 1. Remove the permanent link. Go to [Targets](../content/targets/targets.js) and delete the file name. Remove the whole line, `"student-visa",`. Ensure that the last item on the list does not have a comma.
 ```
 export const targets = 
