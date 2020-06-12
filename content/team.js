@@ -29,6 +29,17 @@ export const team = [
 			"linkedin": "https://www.linkedin.com/in/suhas92/",
 			"email": "suhas.mehta@gmail.com",
 			"image": "suhas-mehta.png"
+		},
+		{
+			"order": 3,
+			"url": "krish-penamurty",
+			"name": "Krish Penamurty",
+			"title": "Contributor",
+			"git": "https://github.com/krish-penumarty",
+			"linkedin": "https://www.linkedin.com/in/krishpenumarty/",
+			"email": "krishpenumarty99@gmail.com",
+			"image": "krish-penumarty.png"
 		}
+
 
 	]
